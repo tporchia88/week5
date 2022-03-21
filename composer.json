@@ -26,6 +26,7 @@
         "drupal/devel": "^4.1",
         "drupal/paragraphs": "^1.13",
         "drupal/pathauto": "^1.9",
+        "drupal/redirect": "^1.7",
         "drupal/viewsreference": "^2.0@beta",
         "drush/drush": "^11.0"
     },
