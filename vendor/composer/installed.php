@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'dacdda9e3667eee846af1d803e5d1093017316a7',
+        'reference' => '0a893e52974630fb4d2f8a24b76cd0c02ca2c48e',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -231,6 +231,24 @@
             'replaced' => array(
                 0 => '9.3.8',
             ),
+        ),
+        'drupal/bootstrap' => array(
+            'pretty_version' => '3.23.0',
+            'version' => '3.23.0.0',
+            'type' => 'drupal-theme',
+            'install_path' => __DIR__ . '/../../web/themes/contrib/bootstrap',
+            'aliases' => array(),
+            'reference' => '8.x-3.23',
+            'dev_requirement' => false,
+        ),
+        'drupal/bootstrap_paragraphs' => array(
+            'pretty_version' => '2.0.0-beta7',
+            'version' => '2.0.0.0-beta7',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/bootstrap_paragraphs',
+            'aliases' => array(),
+            'reference' => '8.x-2.0-beta7',
+            'dev_requirement' => false,
         ),
         'drupal/breakpoint' => array(
             'dev_requirement' => false,
@@ -766,7 +784,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'dacdda9e3667eee846af1d803e5d1093017316a7',
+            'reference' => '0a893e52974630fb4d2f8a24b76cd0c02ca2c48e',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
@@ -900,6 +918,15 @@
             'replaced' => array(
                 0 => '9.3.8',
             ),
+        ),
+        'drupal/viewsreference' => array(
+            'pretty_version' => '2.0.0-beta2',
+            'version' => '2.0.0.0-beta2',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/viewsreference',
+            'aliases' => array(),
+            'reference' => '8.x-2.0-beta2',
+            'dev_requirement' => false,
         ),
         'drupal/workflows' => array(
             'dev_requirement' => false,
