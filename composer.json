@@ -16,6 +16,7 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "drupal/admin_toolbar": "^3.1",
         "drupal/block_visibility_groups": "^1.4",
         "drupal/bootstrap": "^3.23",
         "drupal/bootstrap_paragraphs": "^2.0@beta",
