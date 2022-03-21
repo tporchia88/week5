@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => 'b338157106457a476e9fbf1ca757f85fdd8a02af',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -216,6 +216,15 @@
             'replaced' => array(
                 0 => '9.3.8',
             ),
+        ),
+        'drupal/block_visibility_groups' => array(
+            'pretty_version' => '1.4.0',
+            'version' => '1.4.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/block_visibility_groups',
+            'aliases' => array(),
+            'reference' => '8.x-1.4',
+            'dev_requirement' => false,
         ),
         'drupal/book' => array(
             'dev_requirement' => false,
@@ -734,12 +743,12 @@
             ),
         ),
         'drupal/recommended-project' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => 'b338157106457a476e9fbf1ca757f85fdd8a02af',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
@@ -1075,8 +1084,8 @@
         'psr/container-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0',
-                1 => '^1.0',
+                0 => '^1.0',
+                1 => '1.0',
             ),
         ),
         'psr/event-dispatcher-implementation' => array(
